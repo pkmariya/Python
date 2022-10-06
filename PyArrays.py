@@ -44,3 +44,7 @@ else:
     print(f"{str1} is not a palindrome")
 
 print()
+
+print("Letters in given name: ")
+for letter in myName:
+    print(letter)
