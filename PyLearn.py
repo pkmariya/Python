@@ -51,6 +51,7 @@ print("Integer of myChar is: ", ord(myChar))
 print()
 
 print(" ***** init or constructor function in python ******")
+# Python __init__() method is automatically called to allocate memory when an object instance of a class is created
 
 class Employee:
     def __init__(self, name, age, salary) -> None:
@@ -60,5 +61,11 @@ class Employee:
 
 E1 = Employee("Mariya", 50, 500000)
 print(E1.name, E1.age, E1.salary)
+print()
+
+print("*** Lambda Function ****")
+
+a = lambda x, y : x+y
+print("Lambda addition: ", a(10, 20))
 print()
 
